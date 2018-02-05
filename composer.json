@@ -1,0 +1,14 @@
+{
+    "name": "gnever/multi-process",
+    "description": "php 基于多进程快速处理数据方案",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "pcntl\\": "src/pcntl",
+            "common\\": "src/common"
+        }
+    }
+}
